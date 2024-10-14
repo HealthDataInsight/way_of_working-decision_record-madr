@@ -1,8 +1,8 @@
 # WayOfWorking::DecisionRecord::Madr
 
-TODO: Delete this and the text below, and describe your gem
+This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses [Markdown Any Decision Records (MADR)](https://adr.github.io/madr/) version 3.0.0 to capture key technical (e.g archtectural) and non-technical decisions with you repository.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/way_of_working/decision_record/madr`. To experiment with that code, run `bin/console` for an interactive prompt.
+You can read about the general approach to capturing decisions on the [GDS Way page on Architecture Decisions](https://gds-way.cloudapps.digital/standards/architecture-decisions.html) and specifics about MADR are available at <https://adr.github.io/madr/>.
 
 ## Installation
 
@@ -22,7 +22,17 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 ## Usage
 
-TODO: Write usage instructions here
+To add the [Markdown Any Decision Records (MADR)](https://adr.github.io/madr/) v3.0.0 framework to your project, run the following at the command line:
+
+    way_of_working init decision_record
+
+To create a new decision record, run:
+
+    way_of_working new decision_record [NAME]
+
+Where `[NAME]` is the title of your decision record, for example:
+
+    way_of_working new decision_record "Use Markdown Any Decision Records"
 
 ## Development
 
