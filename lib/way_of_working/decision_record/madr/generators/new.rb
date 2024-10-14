@@ -32,7 +32,7 @@ module WayOfWorking
 
             # from https://raw.githubusercontent.com/adr/madr/3.0.0/template/adr-template.md
             template 'docs/decisions/adr-template.md',
-                    "docs/decisions/#{next_decision_number}-#{dashed_name}.md"
+                     "docs/decisions/#{next_decision_number}-#{dashed_name}.md"
           end
 
           def revoke_decision_record_file

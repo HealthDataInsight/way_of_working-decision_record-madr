@@ -2,32 +2,32 @@
 file safety:
   ".github/linters/.markdown-link-check.json":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   ".github/linters/rubocop_defaults.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   ".github/workflows/main.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   ".github/workflows/mega-linter.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   ".gitignore":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   ".mega-linter.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   ".rubocop":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   CHANGELOG.md:
     comments:
     reviewed_by:
@@ -42,36 +42,36 @@ file safety:
     safe_revision:
   LICENSE.txt:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   README.md:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 006f26c6ea673dea798f8bf1c890f518ed8e5980
   Rakefile:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   bin/console:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   bin/setup:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   lib/way_of_working/decision_record/madr.rb:
     comments:
     reviewed_by:
     safe_revision:
   lib/way_of_working/decision_record/madr/generators/init.rb:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 19320285fb5d2dbd29bb4ec4b0f41ce2288e1c2e
+    reviewed_by:
+    safe_revision:
   lib/way_of_working/decision_record/madr/generators/new.rb:
     comments:
-    reviewed_by: brian.shand
-    safe_revision: 8424e6e3bf1c78f136ed1512d33878a2fc439463
+    reviewed_by:
+    safe_revision:
   lib/way_of_working/decision_record/madr/paths.rb:
     comments:
     reviewed_by:
@@ -79,15 +79,15 @@ file safety:
   lib/way_of_working/decision_record/madr/templates/.github/ISSUE_TEMPLATE/decision-record.md:
     comments:
     reviewed_by: timgentry
-    safe_revision: 19320285fb5d2dbd29bb4ec4b0f41ce2288e1c2e
+    safe_revision: 70fc9a4a2c25be2dea2d2b2e2122c7eb18c7f0c4
   lib/way_of_working/decision_record/madr/templates/docs/decisions/README.md:
     comments:
     reviewed_by: timgentry
-    safe_revision: f96fc0fbe2d380210ac5a12d04db8140ebd5ea56
+    safe_revision: 70fc9a4a2c25be2dea2d2b2e2122c7eb18c7f0c4
   lib/way_of_working/decision_record/madr/templates/docs/decisions/adr-template.md.tt:
     comments:
     reviewed_by: timgentry
-    safe_revision: 8424e6e3bf1c78f136ed1512d33878a2fc439463
+    safe_revision: 70fc9a4a2c25be2dea2d2b2e2122c7eb18c7f0c4
   lib/way_of_working/decision_record/madr/version.rb:
     comments:
     reviewed_by:
@@ -110,5 +110,5 @@ file safety:
     safe_revision:
   way_of_working-decision_record-madr.gemspec:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: bdf570b22005f06ebb56535fc81c342b6b510535

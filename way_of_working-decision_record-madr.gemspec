@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ['52189+timgentry@users.noreply.github.com']
 
   spec.summary = 'Way of Working plugin for Decision Records using MADR v3'
-  spec.homepage = "https://github.com/HealthDataInsight/way_of_working-decision_record-madr"
+  spec.homepage = 'https://github.com/HealthDataInsight/way_of_working-decision_record-madr'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 3.0.0'
 
