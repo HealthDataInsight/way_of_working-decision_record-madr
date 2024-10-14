@@ -2,6 +2,9 @@
 
 source 'https://rubygems.org'
 
+# FIXME: Remove this hard-coded link before merging
+gem 'way_of_working', git: 'https://github.com/HealthDataInsight/way_of_working.git', branch: 'feature/v2-wip'
+
 # Specify your gem's dependencies in way_of_working-decision_record-madr.gemspec
 gemspec
 
