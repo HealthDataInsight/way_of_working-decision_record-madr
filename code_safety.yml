@@ -72,6 +72,10 @@ file safety:
     comments:
     reviewed_by: brian.shand
     safe_revision: 8424e6e3bf1c78f136ed1512d33878a2fc439463
+  lib/way_of_working/decision_record/madr/paths.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
   lib/way_of_working/decision_record/madr/templates/.github/ISSUE_TEMPLATE/decision-record.md:
     comments:
     reviewed_by: timgentry
@@ -89,6 +93,14 @@ file safety:
     reviewed_by:
     safe_revision:
   test/test_helper.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  test/way_of_working/decision_record/madr/generators/init_test.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  test/way_of_working/decision_record/madr/generators/new_test.rb:
     comments:
     reviewed_by:
     safe_revision:
