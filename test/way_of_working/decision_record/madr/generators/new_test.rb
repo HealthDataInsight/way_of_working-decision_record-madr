@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'test_helper'
-require 'way_of_working/decision_record/madr/generators/new'
 
 module WayOfWorking
   module DecisionRecord
@@ -9,7 +8,7 @@ module WayOfWorking
       module Generators
         # This class tests the DecisionRecord::New Thor Group (generator)
         class NewTest < Rails::Generators::TestCase
-          tests WayOfWorking::Generators::DecisionRecord::New
+          tests WayOfWorking::DecisionRecord::Madr::Generators::New
           destination WayOfWorking.root.join('tmp/generators')
           setup :prepare_destination
 

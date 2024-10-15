@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'way_of_working/paths'
-
 module WayOfWorking
   module DecisionRecord
     module Madr

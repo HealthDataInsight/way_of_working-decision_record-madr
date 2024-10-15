@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'way_of_working/decision_record/madr/generators/init'
 
 module WayOfWorking
   module DecisionRecord
@@ -7,7 +6,7 @@ module WayOfWorking
       module Generators
         # This class tests the DecisionRecord::Init Thor Group (generator)
         class InitTest < Rails::Generators::TestCase
-          tests WayOfWorking::Generators::DecisionRecord::Init
+          tests WayOfWorking::DecisionRecord::Madr::Generators::Init
           destination WayOfWorking.root.join('tmp/generators')
           setup :prepare_destination
 
