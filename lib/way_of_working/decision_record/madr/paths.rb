@@ -2,9 +2,9 @@
 
 require 'pathname'
 
-# Mixin that provides a couple of pathname convenience methods
 module WayOfWorking
   module DecisionRecord
+    # Mixin that provides a couple of pathname convenience methods
     module Madr
       class << self
         def root
