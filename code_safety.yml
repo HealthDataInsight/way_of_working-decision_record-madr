@@ -11,11 +11,11 @@ file safety:
   ".github/workflows/main.yml":
     comments:
     reviewed_by: timgentry
-    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
+    safe_revision: f19b529386f0019cb5cc5460d626686831793deb
   ".github/workflows/mega-linter.yml":
     comments:
     reviewed_by: timgentry
-    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
+    safe_revision: f19b529386f0019cb5cc5460d626686831793deb
   ".gitignore":
     comments:
     reviewed_by: timgentry
@@ -30,8 +30,8 @@ file safety:
     safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   CHANGELOG.md:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 4b952577b9080126c3a1d23ba5595e60a1ac5f36
   Gemfile:
     comments:
     reviewed_by:
@@ -76,6 +76,10 @@ file safety:
     comments:
     reviewed_by:
     safe_revision:
+  lib/way_of_working/decision_record/madr/plugin.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: fb831561b8329caab85f041afff72764d3b3cfe8
   lib/way_of_working/decision_record/madr/templates/.github/ISSUE_TEMPLATE/decision-record.md:
     comments:
     reviewed_by: timgentry
@@ -90,25 +94,25 @@ file safety:
     safe_revision: 70fc9a4a2c25be2dea2d2b2e2122c7eb18c7f0c4
   lib/way_of_working/decision_record/madr/version.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   test/test_helper.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   test/way_of_working/decision_record/madr/generators/init_test.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 46e0d79a0fdb7f0781cb19e711e25c39f3009868
   test/way_of_working/decision_record/madr/generators/new_test.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 46e0d79a0fdb7f0781cb19e711e25c39f3009868
   test/way_of_working/decision_record/madr_test.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   way_of_working-decision_record-madr.gemspec:
     comments:
     reviewed_by: timgentry
-    safe_revision: bdf570b22005f06ebb56535fc81c342b6b510535
+    safe_revision: 627373eccfc25e39d11f1dda3bd5c8dd803252cb
