@@ -24,8 +24,7 @@ module WayOfWorking
             @title = '{short title of solved problem and solution}'
             template 'docs/decisions/adr-template.md'
 
-            get 'https://raw.githubusercontent.com/adr/madr/3.0.0/template/0000-use-markdown-any-decision-records.md',
-                'docs/decisions/0000-use-markdown-any-decision-records.md'
+            copy_file 'docs/decisions/0000-use-markdown-any-decision-records.md'
           end
 
           def copy_index_file
