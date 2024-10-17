@@ -27,6 +27,7 @@ module WayOfWorking
 
           def invoke_decision_record_file
             @decision_date = Date.today.strftime('%Y-%m-%d')
+            @index = next_decision_number.to_i
             @title = name
 
             # from https://raw.githubusercontent.com/adr/madr/3.0.0/template/adr-template.md
