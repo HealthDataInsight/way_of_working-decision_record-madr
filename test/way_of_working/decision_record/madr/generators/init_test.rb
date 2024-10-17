@@ -31,6 +31,7 @@ module WayOfWorking
             end
             assert_file 'docs/decisions/0000-use-markdown-any-decision-records.md'
             assert_file 'docs/decisions/index.md'
+            assert_file 'docs/way_of_working/decision-records.md'
 
             run_generator [], behavior: :revoke
 
@@ -39,6 +40,7 @@ module WayOfWorking
             assert_no_file 'docs/decisions/adr-template.md'
             assert_no_file 'docs/decisions/0000-use-markdown-any-decision-records.md'
             assert_no_file 'docs/decisions/index.md'
+            assert_no_file 'docs/way_of_working/decision-records.md'
           end
         end
       end

@@ -31,6 +31,10 @@ module WayOfWorking
           def copy_index_file
             copy_file 'docs/decisions/index.md'
           end
+
+          def copy_way_of_working_file
+            copy_file 'docs/way_of_working/decision-records.md'
+          end
         end
       end
     end
