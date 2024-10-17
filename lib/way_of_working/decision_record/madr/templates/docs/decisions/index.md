@@ -5,7 +5,7 @@ has_children: true
 
 We use [Markdown Any Decision Records (MADR)](https://adr.github.io/madr/) version 3.0.0.
 
-In general projects will follow the [HDI Way of Working](https://github.com/HealthDataInsight/way_of_working) and so decisions captured within those projects will generally cover decisions that:
+In general, projects will follow the [Way of Working](https://github.com/HealthDataInsight/way_of_working) and so decisions captured within individual projects will generally cover decisions that:
 
 - are not already covered in the Way of Working
 - are covered in the Way of Working, but have specific implementation details which need to be captured
@@ -38,9 +38,9 @@ As a consequence, some existing tooling might not be applicable.
 
 The filenames are following the pattern `NNNN-title-with-dashes.md`, where
 
-* `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
-* the title is stored using dashes and lowercase, because [adr-tools] also does that.
-* the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
+- `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
+- the title is stored using dashes and lowercase, because [adr-tools] also does that.
+- the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
 
 Decisions are placed in the subfolder `decisions/` to keep them close to the documentation but also separate the decisions from other documentation.
 
@@ -54,7 +54,6 @@ Where `[NAME]` is the title of your decision record, for example:
 
     way_of_working new decision_record "Use Markdown Any Decision Records"
 
+## Way of Working decision records
 
-## HDI Way of Working decision records
-
-All HDI Way of Working decision records are listed below.
+All Way of Working decision records are listed below.

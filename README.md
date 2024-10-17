@@ -24,15 +24,21 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 To add the [Markdown Any Decision Records (MADR)](https://adr.github.io/madr/) v3.0.0 framework to your project, run the following at the command line:
 
-    way_of_working init decision_record
+```bash
+way_of_working init decision_record
+```
 
 To create a new decision record, run:
 
-    way_of_working new decision_record [NAME]
+```bash
+way_of_working new decision_record [NAME]
+```
 
 Where `[NAME]` is the title of your decision record, for example:
 
-    way_of_working new decision_record "Use Markdown Any Decision Records"
+```bash
+way_of_working new decision_record "Use Markdown Any Decision Records"
+```
 
 ## Development
 
@@ -42,7 +48,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/way_of_working-decision_record-madr. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/way_of_working-decision_record-madr/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at <https://github.com/HealthDataInsight/way_of_working-decision_record-madr>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/HealthDataInsight/way_of_working-decision_record-madr/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -50,4 +56,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the WayOfWorking::DecisionRecord::Madr project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/way_of_working-decision_record-madr/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the WayOfWorking::DecisionRecord::Madr project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/HealthDataInsight/way_of_working-decision_record-madr/blob/main/CODE_OF_CONDUCT.md).
