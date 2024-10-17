@@ -48,11 +48,15 @@ Decisions are placed in the subfolder `decisions/` to keep them close to the doc
 
 To create a new decision record, run:
 
-    way_of_working new decision_record [NAME]
+```bash
+way_of_working new decision_record [NAME]
+```
 
 Where `[NAME]` is the title of your decision record, for example:
 
-    way_of_working new decision_record "Use Markdown Any Decision Records"
+```bash
+way_of_working new decision_record "Use Markdown Any Decision Records"
+```
 
 ## Way of Working decision records
 
