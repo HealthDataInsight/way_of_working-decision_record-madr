@@ -5,6 +5,7 @@ require_relative 'madr/paths'
 require 'zeitwerk'
 
 loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::DecisionRecord)
+loader.ignore("#{__dir__}/madr/plugin.rb")
 loader.setup
 
 module WayOfWorking
