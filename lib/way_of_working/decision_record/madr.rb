@@ -8,6 +8,13 @@ loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::DecisionRecord)
 loader.ignore("#{__dir__}/madr/plugin.rb")
 loader.setup
 
+# If way_of_working-audit-github is used we can add a rule
+begin
+  require 'way_of_working/audit/github/rules/registry'
+  require_relative 'hdi/github_audit_rule'
+rescue LoadError # rubocop:disable Lint/SuppressedException
+end
+
 module WayOfWorking
   module DecisionRecord
     module Madr
