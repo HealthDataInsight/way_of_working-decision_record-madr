@@ -9,7 +9,7 @@ module WayOfWorking
         # This class tests the DecisionRecord::New Thor Group (generator)
         class NewTest < Rails::Generators::TestCase
           tests WayOfWorking::DecisionRecord::Madr::Generators::New
-          destination WayOfWorking.root.join('tmp/generators')
+          destination WayOfWorking::DecisionRecord::Madr.root.join('tmp/generators')
           setup :prepare_destination
 
           FIRST_TITLE = 'New_MARKUP -_Decision-record'

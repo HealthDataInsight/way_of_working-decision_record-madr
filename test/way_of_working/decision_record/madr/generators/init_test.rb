@@ -7,7 +7,7 @@ module WayOfWorking
         # This class tests the DecisionRecord::Init Thor Group (generator)
         class InitTest < Rails::Generators::TestCase
           tests WayOfWorking::DecisionRecord::Madr::Generators::Init
-          destination WayOfWorking.root.join('tmp/generators')
+          destination WayOfWorking::DecisionRecord::Madr.root.join('tmp/generators')
           setup :prepare_destination
 
           test 'generator runs without errors' do
