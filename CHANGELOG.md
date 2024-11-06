@@ -9,4 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Initial release
+- Added a Decision Record issue template
+- Added Markdown Any Decision Records (MADR) with generator commands
+- Added a GitHub audit rule to check for the decision record template
