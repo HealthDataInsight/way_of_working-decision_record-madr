@@ -19,7 +19,6 @@ module WayOfWorking
   module DecisionRecord
     module Madr
       class Error < StandardError; end
-      # Your code goes here...
     end
   end
 
