@@ -1,8 +1,13 @@
 # WayOfWorking::DecisionRecord::Madr
 
-TODO: Delete this and the text below, and describe your gem
+<!-- Way of Working: Main Badge Holder Start -->
+![Way of Working Badge](https://img.shields.io/badge/Way_of_Working-v2.0.1-%238169e3?labelColor=black)
+<!-- Way of Working: Additional Badge Holder Start -->
+<!-- Way of Working: Badge Holder End -->
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/way_of_working/decision_record/madr`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses [Markdown Any Decision Records (MADR)](https://adr.github.io/madr/) version 3.0.0 to capture key technical (e.g archtectural) and non-technical decisions within your repository.
+
+You can read about the general approach to capturing decisions on the [GDS Way page on Architecture Decisions](https://gds-way.cloudapps.digital/standards/architecture-decisions.html) and specifics about MADR are available at <https://adr.github.io/madr/>.
 
 ## Installation
 
@@ -22,7 +27,23 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 ## Usage
 
-TODO: Write usage instructions here
+To add the [Markdown Any Decision Records (MADR)](https://adr.github.io/madr/) v3.0.0 framework to your project, run the following at the command line:
+
+```bash
+way_of_working init decision_record
+```
+
+To create a new decision record, run:
+
+```bash
+way_of_working new decision_record [NAME]
+```
+
+Where `[NAME]` is the title of your decision record, for example:
+
+```bash
+way_of_working new decision_record "Use Markdown Any Decision Records"
+```
 
 ## Development
 
@@ -32,7 +53,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/way_of_working-decision_record-madr. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/way_of_working-decision_record-madr/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at <https://github.com/HealthDataInsight/way_of_working-decision_record-madr>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/HealthDataInsight/way_of_working-decision_record-madr/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -40,4 +61,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the WayOfWorking::DecisionRecord::Madr project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/way_of_working-decision_record-madr/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the WayOfWorking::DecisionRecord::Madr project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/HealthDataInsight/way_of_working-decision_record-madr/blob/main/CODE_OF_CONDUCT.md).

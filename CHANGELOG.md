@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-01-23
+
 ### Added
 
-- Initial release
+- Added a Decision Record issue template
+- Added Markdown Any Decision Records (MADR) with generator commands
+- Added a GitHub audit rule to check for the decision record template
+
+[Unreleased]: https://github.com/HealthDataInsight/way_of_working-decision_record-madr/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/HealthDataInsight/way_of_working-decision_record-madr/releases/tag/v1.0.0
