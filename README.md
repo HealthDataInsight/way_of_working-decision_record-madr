@@ -5,24 +5,24 @@
 <!-- Way of Working: Additional Badge Holder Start -->
 <!-- Way of Working: Badge Holder End -->
 
+[![Gem Version](https://badge.fury.io/rb/way_of_working-decision_record-madr.svg)](https://badge.fury.io/rb/way_of_working-decision_record-madr)
+
 This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses [Markdown Any Decision Records (MADR)](https://adr.github.io/madr/) version 3.0.0 to capture key technical (e.g archtectural) and non-technical decisions within your repository.
 
 You can read about the general approach to capturing decisions on the [GDS Way page on Architecture Decisions](https://gds-way.cloudapps.digital/standards/architecture-decisions.html) and specifics about MADR are available at <https://adr.github.io/madr/>.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+bundle add way_of_working-decision_record-madr
 ```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
 ```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+gem install way_of_working-decision_record-madr
 ```
 
 ## Usage
