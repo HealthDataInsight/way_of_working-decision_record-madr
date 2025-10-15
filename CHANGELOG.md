@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-10-16
+
 ### Fixed
 
 - Fixed the README installation instructions and added the badge for the published gem
@@ -21,5 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Markdown Any Decision Records (MADR) with generator commands
 - Added a GitHub audit rule to check for the decision record template
 
-[Unreleased]: https://github.com/HealthDataInsight/way_of_working-decision_record-madr/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/HealthDataInsight/way_of_working-decision_record-madr/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/HealthDataInsight/way_of_working-decision_record-madr/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/HealthDataInsight/way_of_working-decision_record-madr/releases/tag/v1.0.0
