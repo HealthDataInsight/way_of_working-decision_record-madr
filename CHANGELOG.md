@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Fixed the README installation instructions and added the badge for the published gem
+- Made the documentation more token-efficient
 
 ## [1.0.0] - 2025-01-23
 
