@@ -11,7 +11,7 @@ We use [Markdown Any Decision Records (MADR)](https://adr.github.io/madr/) v3.0.
 - need project-specific implementation details
 - diverge from Way of Working guidance
 
-Background: [GDS Way page on Architecture Decisions](https://gds-way.cloudapps.digital/standards/architecture-decisions.html) and [MADR documentation](https://adr.github.io/madr/).
+Background: [GDS Way page on Architecture Decisions](https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html#documenting-architecture-decisions) and [MADR documentation](https://adr.github.io/madr/).
 
 {: .note }
 Proposing and reviewing decisions requires familiarity with [GitHub pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
