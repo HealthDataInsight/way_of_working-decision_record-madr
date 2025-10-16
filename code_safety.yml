@@ -35,7 +35,7 @@ file safety:
   CHANGELOG.md:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    safe_revision: 2173ebacce12376a5d67eb1c4d372f764b118266
   Gemfile:
     comments:
     reviewed_by: shilpigoeldev
@@ -43,7 +43,7 @@ file safety:
   Gemfile.lock:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    safe_revision: 2173ebacce12376a5d67eb1c4d372f764b118266
   LICENSE.txt:
     comments:
     reviewed_by: timgentry
@@ -51,7 +51,7 @@ file safety:
   README.md:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    safe_revision: 660041678012e6ff1924af769934ff97819c20d7
   Rakefile:
     comments:
     reviewed_by: timgentry
@@ -83,7 +83,7 @@ file safety:
   docs/way_of_working/decision-records.md:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 463ce4fadf906117b48bb3f9488985ecba1cf6d9
+    safe_revision: 660041678012e6ff1924af769934ff97819c20d7
   lib/way_of_working/decision_record/madr.rb:
     comments:
     reviewed_by: shilpigoeldev
@@ -99,7 +99,7 @@ file safety:
   lib/way_of_working/decision_record/madr/github_audit_rule.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    safe_revision: 2173ebacce12376a5d67eb1c4d372f764b118266
   lib/way_of_working/decision_record/madr/paths.rb:
     comments:
     reviewed_by: shilpigoeldev
@@ -131,11 +131,11 @@ file safety:
   lib/way_of_working/decision_record/madr/templates/docs/way_of_working/decision-records.md:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    safe_revision: 660041678012e6ff1924af769934ff97819c20d7
   lib/way_of_working/decision_record/madr/version.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    safe_revision: 2173ebacce12376a5d67eb1c4d372f764b118266
   test/test_helper.rb:
     comments:
     reviewed_by: timgentry
