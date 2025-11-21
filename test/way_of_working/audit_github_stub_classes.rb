@@ -18,12 +18,13 @@ module WayOfWorking
             end
           end
 
-          def initialize(client, name, repo, rulesets)
+          def initialize(client, name, repo, rulesets, fix = false)
             @client = client
             @name = name
             @repo = repo
             @repo_name = repo.full_name
             @rulesets = rulesets
+            @fix = fix
             @errors = []
             @warnings = []
           end
@@ -71,17 +72,17 @@ module WayOfWorking
               end
             end
 
-            def rule(rule_name, client, repo)
+            def rule(rule_name, *args)
               klass = Registry.rules.fetch(rule_name, Unknown)
 
-              klass.new(client, repo)
+              klass.new(*args)
             end
           end
         end
 
         # This is a stub handler for rules that aren't in the registry.
         class Unknown < Base
-          def initialize(client, repo_name)
+          def initialize(*args)
             super
             raise 'Error: Unknown client'
           end
