@@ -35,7 +35,7 @@ file safety:
   CHANGELOG.md:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 2173ebacce12376a5d67eb1c4d372f764b118266
+    safe_revision: e61aa67a27586671f3ecebb87255ae28d8b56c83
   Gemfile:
     comments:
     reviewed_by: shilpigoeldev
@@ -43,7 +43,7 @@ file safety:
   Gemfile.lock:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 2173ebacce12376a5d67eb1c4d372f764b118266
+    safe_revision: e61aa67a27586671f3ecebb87255ae28d8b56c83
   LICENSE.txt:
     comments:
     reviewed_by: timgentry
@@ -135,7 +135,7 @@ file safety:
   lib/way_of_working/decision_record/madr/version.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 2173ebacce12376a5d67eb1c4d372f764b118266
+    safe_revision: e61aa67a27586671f3ecebb87255ae28d8b56c83
   test/test_helper.rb:
     comments:
     reviewed_by: timgentry
