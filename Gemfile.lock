@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    way_of_working-decision_record-madr (1.0.1)
+    way_of_working-decision_record-madr (1.0.2)
       way_of_working (~> 2.0)
       zeitwerk (~> 2.6.18)
 

@@ -86,8 +86,8 @@ file safety:
     safe_revision: 660041678012e6ff1924af769934ff97819c20d7
   lib/way_of_working/decision_record/madr.rb:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    reviewed_by: timgentry
+    safe_revision: 289479ef123d8ca221add2ad1d79c98cc07dd3ab
   lib/way_of_working/decision_record/madr/generators/init.rb:
     comments:
     reviewed_by: shilpigoeldev
@@ -106,8 +106,8 @@ file safety:
     safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
   lib/way_of_working/decision_record/madr/plugin.rb:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    reviewed_by: timgentry
+    safe_revision: 289479ef123d8ca221add2ad1d79c98cc07dd3ab
   lib/way_of_working/decision_record/madr/templates/.github/ISSUE_TEMPLATE/decision-record.md:
     comments:
     reviewed_by: shilpigoeldev
@@ -142,8 +142,8 @@ file safety:
     safe_revision: a73811b079389f4706d7f4dbe37ca461b2424642
   test/way_of_working/audit_github_stub_classes.rb:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: 726c543149db70831ba9892789e93f7cb9bf6317
+    reviewed_by: timgentry
+    safe_revision: 2df79f793e38ddcd81d579c078399b9bb1e7ad52
   test/way_of_working/decision_record/madr/generators/init_test.rb:
     comments:
     reviewed_by: shilpigoeldev
