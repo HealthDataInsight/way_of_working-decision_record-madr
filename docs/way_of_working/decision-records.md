@@ -36,7 +36,7 @@ Applies to decisions about:
 
 - Already covered by Way of Working
 - Tactical implementation details (use code comments)
-- Temporary workarounds or obvious choices
+- Temporary workarounds or clear-cut choices
 
 ## Requirements
 
